@@ -1,5 +1,9 @@
-#!/bin/zsh
+#!/bin/bash
+
 clear
 
 echo "Bem vindo $LOGNAME"
-echo "Seu diretório de trabalho = $HOME"
+
+echo "Seu diretorio de trabalho = $HOME"
+
+exit

@@ -1,8 +1,12 @@
-#!/bin/zsh
+#!/bin/bash
 
 clear
 
-echo "informe seu nome.....:"
+echo "Informe seu nome....:"
 read nome
 
 echo "Bem vindo $nome!!!"
+
+exit
+
+

@@ -1,7 +1,9 @@
-#! /bin/zsh
+#!/bin/bash
 
 clear
 
-echo "Bem Vindo : $LOGNAME"
+echo "Bem vindo $LOGNAME"
 echo "Data:"
 date '+%d/%m/%y'
+
+

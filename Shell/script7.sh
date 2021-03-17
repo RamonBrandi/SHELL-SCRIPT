@@ -1,18 +1,16 @@
-#!/bin/zsh
+#!/bin/bash
 
-read -p "Informe um valor: " val
+clear
 
-case $val in
-    1)
-        echo "valor = 1"
-        ;;
-    2)
-        echo "valor = 2"
-        ;;
-    3)
-        echo "valor = 2"
-        ;;
-    *)
-        echo "valor = 2"
-        ;;
-esac
+pwd
+
+listagem1=`ls`
+
+listagem2=$(ls)
+
+echo $listagem1
+
+echo $listagem2
+
+
+

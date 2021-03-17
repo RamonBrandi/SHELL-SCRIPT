@@ -1,9 +1,10 @@
-#!/bin/zsh
+#!/bin/bash
 
-i=1
+nome="Joao"
 
-while [$i -le 10]
-do
-    echo "$i"
-    i=$(expr $i + 1)
-done
+echo "Nome = $nome"
+
+printf "\nNome = $nome"
+
+echo "\n\t Teste"
+
