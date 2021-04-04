@@ -1,4 +1,5 @@
 #!/bin/zsh
+
 #script.sh
 Login(){
 if [ "$(id -u)" != "0" ]; then

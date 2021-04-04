@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 read -p "Informe numero 1...:" num1
 read -p "Informe numero 2...:" num2
